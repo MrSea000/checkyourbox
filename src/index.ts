@@ -14,7 +14,8 @@ export function apply(ctx: Context, config: Config) {
     .action(async ({ session }, user) => {
       try {
         // 1. 判定目标用户：未@则取自己
-        const target = user || session.user
+        // 确保 target 是用户对象而不是字符串
+        const target = typeof user === 'object' && user !== null ? user : session.user
 
         // 2. 组装用户数据
         const userInfo = {
