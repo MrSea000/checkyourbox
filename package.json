@@ -1,13 +1,18 @@
 {
   "name": "koishi-plugin-checkyourbox",
-  "description": "y",
+  "description": "一个抽象小插件，用于开合(不是",
   "version": "0.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "contributors": ["InfiniteSea <mrsea0@outlook.com>"],
   "files": [
     "lib",
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSea000/checkyourbox"
+  },
   "license": "MIT",
   "keywords": [
     "chatbot",

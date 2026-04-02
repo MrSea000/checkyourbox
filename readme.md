@@ -5,7 +5,7 @@
 
 ## 灵感来源
 
-[doxing-emulator]https://github.com/PRO-2684/doxing-emulator
+[doxing-emulator](https://github.com/PRO-2684/doxing-emulator)
 神笔妙妙小插件
 
 

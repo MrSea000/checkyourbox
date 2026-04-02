@@ -29,7 +29,7 @@ export function apply(ctx: Context, config: Config) {
 
         // 3. 格式化输出消息
         const msg = `
-📦 用户卡片面板
+📦已严肃开合📦
 ${userInfo.isSelf ? '👤 你的信息' : '👤 目标用户信息'}
 🆔 用户ID：${userInfo.userId}
 📛 用户昵称：${userInfo.userName}
@@ -42,7 +42,7 @@ ${userInfo.isSelf ? '👤 你的信息' : '👤 目标用户信息'}
         return msg
 
       } catch (err) {
-        return '❌ 获取用户信息失败，请检查@格式是否正确！'
+        return '❌ 获取用户信息失败，请检查命令格式是否正确！'
       }
     })
 }
